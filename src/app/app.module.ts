@@ -12,6 +12,7 @@ import { LoginComponent } from './components/security/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './components/security/register/register.component';
 import { EditProfileComponent } from './components/actor/displayProfile/editProfile.component';
+import { GetReport } from './components/report/report.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ActorService } from './services/actor.service';
 
@@ -30,7 +31,8 @@ export const firebaseConfig = {
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    GetReport
   ],
   imports: [
     BrowserModule,

@@ -42,6 +42,10 @@ export class LoginComponent {
   onclick() {
     this.router.navigate(['/profile/edit']);
   }
+
+  toReport(){
+    this.router.navigate(['/report']);
+  }
 }
 
 
